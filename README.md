@@ -1,5 +1,5 @@
 # SearchAlgorithem
-Search Algorithem for SoorajSearch to Search Useful files
+Search Algorithem is for SoorajSearch to Search Useful files.
 # How it works 
 There are two types of this algorithm. True or False and File Finder.
 File Finder finds useful files based on the query by removeing the stopwords in a folder.
