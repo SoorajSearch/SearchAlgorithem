@@ -15,9 +15,7 @@ def clenanup(text):
 
 
 
-def search(query, files):
-    match = set()
-    folder_path = 'data/*.txt'
+def search(query, folder_path):
     match = set()
     query_words = set(clenanup(query))
     files = glob.glob(folder_path)
@@ -28,3 +26,4 @@ def search(query, files):
                 match.add(file)
     matchs = list(set(match))
     return matchs if matchs else None
+
