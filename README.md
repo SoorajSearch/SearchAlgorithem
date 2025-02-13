@@ -12,3 +12,10 @@ with open(file, 'r') as f:
   content = file.readline() # A cheetah is a animal
   check = searchAlgorithem("What is a cheetah", content) # Returns True
   print(check)
+The code checks the content if it has the word cheetah since we removed the Stopword which is What,is,a. Since the file contained cheetah, it returns True
+
+This Example shows you of using FileFinder
+```python
+from FileFinder import *
+print(search(input("Search: "), "data/*.txt" # Folder Path)
+This code just asks the user input called search and returns files in the folder data with .txt files
