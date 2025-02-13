@@ -19,5 +19,6 @@ This Example shows you of using FileFinder
 ```python
 from FileFinder import *
 print(search(input("Search: "), "data/*.txt" # Folder Path)
-This code just asks the user input called search and returns files in the folder data with .txt files
 ```
+This code just asks the user input called search and returns files in the folder data with .txt files
+
